@@ -183,6 +183,12 @@ button {
   position: fixed;
   top: 0;
 }
+#starts{
+  transition: 0.5s;
+}
+#starts:hover{
+  background-color: green;
+}
 
 @media only screen and (max-width: 700px) {
   .box-container {
@@ -198,7 +204,7 @@ button {
   .custom-div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 2em;
+    column-gap: 1em;
     row-gap: 2em;
   }
   .card {
